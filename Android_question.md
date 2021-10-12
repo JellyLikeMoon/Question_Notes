@@ -5,7 +5,7 @@
 # Question
   提示handle的handleMessage方法被弃用
 # Answer
-···java
+```java
     @SuppressLint("HandlerLeak")
     Handler handler = new Handler(Looper.getMainLooper()) {
         private int i = 3;
@@ -18,5 +18,5 @@
             super.handleMessage(msg);
         }
     };
-···
+```
   
