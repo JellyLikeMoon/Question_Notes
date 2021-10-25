@@ -39,3 +39,5 @@
     firewall-cmd --reload
     firewall-cmd --zone=public --add-port=80/tcp --permanent
     firewall-cmd --zone= public --remove-port=80/tcp --permanent
+    
+所用软件来自https://github.com/Wind4/vlmcsd
